@@ -1,0 +1,9 @@
+---
+
+- name: set labels by nodes
+  command:
+    argv: "{{ [ 'kubectl', 'label', 'nodes', '--overwrite' ] + item.nodes + item.labels }}"
+  with_items: "{{ k8s_label_nodes_with_list }}"
+  register: k8s_label_nodes_command
+  changed_when: "not 'not' in k8s_label_nodes_command.stdout"
+  

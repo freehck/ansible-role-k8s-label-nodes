@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  author: Dmitrii Kashin
+  description: set labels to kubernetes nodes
+  role_name: k8s_node_labels
+  license: MIT
+
+  min_ansible_version: 2.7
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+
+  galaxy_tags:
+    - kubernetes
+    - k8s
+    - label
+    - node
+
+dependencies: []

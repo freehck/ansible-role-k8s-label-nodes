@@ -1,0 +1,10 @@
+---
+k8s_label_nodes_with_list: []
+# k8s_label_nodes_with_list:
+#   - nodes:
+#       - "k8s-node-1"
+#       - "k8s-node-2"
+#       - "k8s-node-3"
+#     labels:
+#       - "elasticsearch-cluster=main"
+#       - "storage-class-affinity=fast-ssd"

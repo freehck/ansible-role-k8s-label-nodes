@@ -1,0 +1,8 @@
+---
+
+- hosts: k8s_cluster
+  become: true
+  roles:
+    - role: freehck.k8s_minimal
+    - role: freehck.k8s_label_nodes
+      when: k8s_is_master | default(false)
