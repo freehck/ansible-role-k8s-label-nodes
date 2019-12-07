@@ -1,4 +1,4 @@
-freehck.k8s_label_nodes
+\freehck.k8s_label_nodes
 =========
 
 Set labels to kubernetes nodes
@@ -11,7 +11,7 @@ This role just sets labels to kubernetes nodes.
 Role Variables
 --------------
 
-`k8s_calico_ver`: version of calico to deploy
+`k8s_label_nodes_with_list`: the list with nodes and their labels, look example below
 
 Example
 -------
