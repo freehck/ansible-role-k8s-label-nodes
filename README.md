@@ -1,4 +1,4 @@
-\freehck.k8s_label_nodes
+freehck.k8s_label_nodes
 =========
 
 Set labels to kubernetes nodes
